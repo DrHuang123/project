@@ -13,7 +13,8 @@ install.packages("devtools")
 devtools::install_github("DrHuang123/project")
 
 ## Usage
-Example 1 Rhythmic Analysis
+### Example Rhythmic Analysis & Plot Rhythmic Expression
+```R
 library(BayesianRhythmicAnalysis)
 
 data(ExampleData)
@@ -30,11 +31,6 @@ result <- BayesianRhythmicAnalysis(
   verbose = TRUE
 )
 
-head(result$TestStatistics)
-head(result$PValues)
-head(result$AdjustedPValues)
-
-Example 2: Plot Rhythmic Expression
  PlotRhythmicGene(
    fitted_params = result$FittedParams,
    gene_id       = 166,
