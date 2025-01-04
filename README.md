@@ -9,6 +9,7 @@ It includes tools for data normalization, hypothesis testing, and visualization,
 **Visualization Tools**: Generate fitted rhythmic expression curves for specific genes.
 
 ## Installation
+```R
 install.packages("devtools")
 devtools::install_github("DrHuang123/project")
 
