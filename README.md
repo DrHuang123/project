@@ -9,10 +9,10 @@ It includes tools for data normalization, hypothesis testing, and visualization,
 **Visualization Tools**: Generate fitted rhythmic expression curves for specific genes.
 
 ## Installation
-
+```R
 install.packages("devtools")
 devtools::install_github("DrHuang123/project")
-
+```
 ## Usage
 ### Example Rhythmic Analysis & Plot Rhythmic Expression
 ```R
@@ -37,5 +37,5 @@ result <- BayesianRhythmicAnalysis(
    gene_id       = 166,
    period        = 24
  )
-
+```
 
